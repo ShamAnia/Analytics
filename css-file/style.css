@@ -1,0 +1,74 @@
+* {
+  border: solid 2px red;
+}
+header {
+  background-image: url(/html-file/img/background-top.png);
+  color: white;
+}
+.nav-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  color: white;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Sing-in-up {
+  display: flex;
+  display: inline-block;
+}
+.sign-in {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px;
+}
+button {
+  padding: 10px 53px;
+  background: none;
+  color: #8794ba;
+  font-size: 16px;
+  border-radius: 50px;
+  border: solid 1px white;
+  margin: 20px;
+}
+.text-img {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  text-align: left;
+  padding: 10px;
+}
+.text {
+  width: 550px;
+  height: 120px;
+}
+h2 {
+  font-size: 60px;
+  color: white;
+}
+p {
+  font-size: 18px;
+  color: #8794ba;
+}
+.try {
+  background-color: #ef2a82;
+  color: white;
+}
+/* img {
+  background: none;
+} */
+/* на конечном результате имеем ободок вокруг  */
