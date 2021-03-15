@@ -3,6 +3,12 @@
 }
 header {
   background-image: url(/html-file/img/background-top.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 815px;
+  width: 1600px;
+  margin: 0px 200px;
+  background-size: 100% 100%;
   color: white;
 }
 .nav-info {
@@ -47,28 +53,275 @@ button {
 }
 .text-img {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-around; */
+  /*add property for correct location*/
   position: relative;
   text-align: left;
-  padding: 10px;
+  
+  align-items: center;
 }
 .text {
-  width: 550px;
-  height: 120px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px; 
+flex: 1;
+margin-left: 210px;
+
 }
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   color: white;
 }
 p {
   font-size: 18px;
   color: #8794ba;
 }
-.try {
+.text button {
   background-color: #ef2a82;
   color: white;
+  text-align: center;
+  height: 50px;
+width: 238px;
+border-radius: 68px;
+padding: 10px, 80px, 10px, 80px;
+/*как сделать эту гадость внизу слева? или надо через флекс?*/
+
+
+
 }
-/* img {
-  background: none;
-} */
-/* на конечном результате имеем ободок вокруг  */
+.img {
+  flex: 1;
+  background-image: url(/html-file/img/Frame\ 11.png);
+  background-repeat: no-repeat;
+  Width :873px;
+  Height :554.57px;
+  background-position: center right;
+  /*correct location*/
+}
+
+/*NEW CHaPTER*/
+
+.wrapper{
+  margin: 20px 200px;
+  width: 1600px;
+  background-color: rgb(197, 175, 224);
+ 
+}
+.features h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+}
+.features p {
+  color: 8794ba;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  margin: 50px;
+}
+.features-icons {
+  display: flex;
+}
+.features-icons div {
+  box-sizing: border-box;
+  padding: 50px;
+  text-align: center;
+  font-size: 16px;
+}
+.features-icons div p {
+  color: 8794ba;
+}
+
+
+
+
+.chld1 {
+  display: flex;
+  align-items: center;
+  margin: 120px;
+}
+.staff1 {
+  flex: 1;
+}
+.img-chld1 {
+  background: url(/html-file/img/screen-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 410px;
+ flex: 1;
+
+}
+/*почему сжирается верхний угол(*/
+
+.staff1 h2{
+  color:#172755;
+  font-size: 40px;
+}
+.staff1 p{
+  font-size: 18px;
+  color:#8794BA;
+}
+
+.chld2{
+  display: flex;
+  align-items: center;
+  margin: 120px;
+
+}
+.img-chld2{
+  background-image: url(/html-file/img/screen-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 410px;
+ flex: 1;
+}
+.staff2{
+  flex:1
+}
+.staff2 h2{
+  color:#172755;
+  font-size: 40px;
+}
+.staff2 p{
+  font-size: 18px;
+  color:#8794BA;
+}
+.chld3{
+  display: flex;
+  align-items: center;
+  margin: 120px;
+}
+.img-chld3{
+  background-image: url(/html-file/img/screen-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 410px;
+ flex: 1;
+padding-top: 100px;
+}
+.staff3{
+  flex: 1;
+}
+.staff3 h2{
+  color:#172755;
+  font-size: 40px;
+}
+.staff3 p{
+  font-size: 18px;
+  color:#8794BA;
+}
+
+
+/*ещеееееееееее*/
+footer{
+  background-image: url(/html-file/img/background-bottom.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  height: 1225px;
+  width: 1600px;
+ margin: 0px 200px ; 
+}
+.footerall{
+  height: 656px;
+  width: 1180px; 
+  margin: 272px 210px 297px 210px;
+
+}
+.footer{
+  position: relative;
+  margin-bottom: 80px;
+}
+.footer h2{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.footer p{
+  font-size: 18px;
+  color:#8794BA;
+  text-align: center;
+  margin: 0px 270px;
+
+}
+.conteiner{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 440px;
+  Width :1180px;
+}
+.starter{ background-color: rgba(15,31,75,1);
+  border-radius:30px;
+  height: 440px;
+  width: 340px;
+}
+.starter h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.spec{
+color: white;
+font-size:60px;
+text-align: center;
+}
+span{
+  font-size: 30px;
+}
+.nespec{
+  font-size: 18px;
+  text-align: center;
+}
+.order{
+  Width:200px;
+  Height:39px;
+ border-radius:60px;
+ padding: 20px 80px;
+ text-align: center;
+ font-size: 20px;
+ color: white;
+margin: 0px 70px;
+border: solid 1px white;
+
+
+}
+
+.thrd{
+  background-color: rgba(15,31,75,1);
+  border-radius:30px;
+  height: 440px;
+  width: 340px;
+}
+
+
+
+ .thrd h3{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+ .thrd p{
+font-size: 18px;
+text-align: center;
+}
+
+
+.scn{
+  background-color: white;
+  border-radius: 30px;
+  margin: 0px 80px;
+  height: 440px;
+  width: 340px;
+
+
+}
+.scn h3{
+  color:rgba(23,39,85,1);
+font-size: 30px;
+
+} 
