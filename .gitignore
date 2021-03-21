@@ -1,10 +1,12 @@
 #
 # Custom
 #
-.DC_Store
+.DS_Store
 
 # Build folder (get's generated when running any start or build commands)
-Build
+build/
+ 
+
 
 #
 # Standard Node .gitignore
