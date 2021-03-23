@@ -3,7 +3,7 @@
 #
 .DC_Store
 
-# build folder (get's generated when running any start or build commands)
+# Build folder (get's generated when running any start or build commands)
 build
 
 #
