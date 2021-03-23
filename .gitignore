@@ -4,7 +4,7 @@
 .DC_Store
 
 # Build folder (get's generated when running any start or build commands)
-*.build
+.build
 
 #
 # Standard Node .gitignore
